@@ -1,0 +1,48 @@
+Cluster, classify, regress: a general method for learning discontinuous functions
+
+This paper presents a method for solving the supervised learning problem in which the output is highly nonlinear and discontinuous. It is proposed to solve this problem in three stages: (i) cluster the pairs of input-output data points, resulting
+in a label for each point; (ii) classify the data, where the corresponding label is the output; and finally (iii) perform one separate regression for each class,
+where the training data corresponds to the subset of the original input-output pairs which have that label according to the classifier. It has not yet been proposed to
+combine these 3 fundamental building blocks of machine learning in this simple and powerful fashion. This can be viewed as a form of deep learning, where any
+of the intermediate layers can itself be deep. The utility and robustness of the methodology is illustrated on some toy problems.
+
+Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+
+Prerequisites
+Python 3.7
+Scikit-learn
+Matplotlib
+Numpy
+Scipy
+Keras
+Tensorflow
+
+
+Optional packages
+MATLAB 2015 upwards (for data visualisation)
+
+
+Installing
+please visit https://www.anaconda.com/distribution/ on how to obtain Anaconda-spyder
+For all the prerequesites a Pip install --package-- from the Anaconda terminal will work
+
+
+Running the Numerical Experiment
+Locate the Numerical Experiment subfolder
+Run the scripts in each subfolder of Numerical Experiment *number* termed Num*number*.py
+
+For example to run NUM1.py Numerical Experiment 1 in the paper locate, 
+C:\*your directory\NeurIPS_paper\Numerical Experiment\Numerical experiment 1
+
+Manuscript
+The pdf of the submitted paper is ccr_nips_v2
+
+Author
+Dr Clement Etienam- Postdoctoral Research Associate, School of Mathematics, University of Manchester 
+
+
+Acknowledgments
+This work is supported by the U.S. Department of Energy, Office of Science, Office of Advanced Scientific Computing Research (ASCR) Scientific Discovery through Advanced
+Computing (SciDAC) project on Advanced Tokamak Modelling (AToM), under field work proposal number ERKJ123.
